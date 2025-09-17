@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36511.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ders01_Introduction", "Ders01\Ders01_Introduction.csproj", "{4045CD92-4593-4C17-8ED8-C95DA9ED31FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ders02_Variables", "Ders02_Variables\Ders02_Variables.csproj", "{9E9C425D-4C71-4A6A-B4C8-3A1936A03637}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4045CD92-4593-4C17-8ED8-C95DA9ED31FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4045CD92-4593-4C17-8ED8-C95DA9ED31FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4045CD92-4593-4C17-8ED8-C95DA9ED31FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4045CD92-4593-4C17-8ED8-C95DA9ED31FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E9C425D-4C71-4A6A-B4C8-3A1936A03637}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E9C425D-4C71-4A6A-B4C8-3A1936A03637}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E9C425D-4C71-4A6A-B4C8-3A1936A03637}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E9C425D-4C71-4A6A-B4C8-3A1936A03637}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {596B4610-069A-4CB6-9ED9-EC1AFBB688B9}
+	EndGlobalSection
+EndGlobal
