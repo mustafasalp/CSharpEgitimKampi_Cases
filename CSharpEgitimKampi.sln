@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ders01_Introduction", "Ders
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ders02_Variables", "Ders02_Variables\Ders02_Variables.csproj", "{9E9C425D-4C71-4A6A-B4C8-3A1936A03637}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Der03_DecisionStructures", "Der03_DecisionStructures\Der03_DecisionStructures.csproj", "{7419C14D-9779-4F20-8BAC-2913DD485530}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{9E9C425D-4C71-4A6A-B4C8-3A1936A03637}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E9C425D-4C71-4A6A-B4C8-3A1936A03637}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E9C425D-4C71-4A6A-B4C8-3A1936A03637}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7419C14D-9779-4F20-8BAC-2913DD485530}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7419C14D-9779-4F20-8BAC-2913DD485530}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7419C14D-9779-4F20-8BAC-2913DD485530}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7419C14D-9779-4F20-8BAC-2913DD485530}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
