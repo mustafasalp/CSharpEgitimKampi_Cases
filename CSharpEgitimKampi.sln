@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ders04_Loops", "Ders04_Loop
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ders05_LoopExercises", "Ders05_LoopExercises\Ders05_LoopExercises.csproj", "{2811F6EF-98A2-41F3-BEE6-D9FA47F628C0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ders06_Arrays", "Ders06_Arrays\Ders06_Arrays.csproj", "{7B712633-A64C-4E0E-9FEA-3DF1E03BDC4D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{2811F6EF-98A2-41F3-BEE6-D9FA47F628C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2811F6EF-98A2-41F3-BEE6-D9FA47F628C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2811F6EF-98A2-41F3-BEE6-D9FA47F628C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B712633-A64C-4E0E-9FEA-3DF1E03BDC4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B712633-A64C-4E0E-9FEA-3DF1E03BDC4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B712633-A64C-4E0E-9FEA-3DF1E03BDC4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B712633-A64C-4E0E-9FEA-3DF1E03BDC4D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
