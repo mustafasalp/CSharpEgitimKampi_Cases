@@ -1,3 +1,3 @@
-# 📌 C# EĞİTİM KAMPI, DERS NOTLARI
+# <u>📌 **C# EĞİTİM KAMPI, DERS NOTLARI**</u>
 
-# DERS01 _Giriş_
+# DERS-01 Giriş
