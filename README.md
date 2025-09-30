@@ -1,3 +1,1 @@
-# CSharpEgitimKampi
-
-Murat Yücedağ C# Eğitim kampının Case'leri ve kodları
+C# EĞİTİM KAMPI DERSLERİ
