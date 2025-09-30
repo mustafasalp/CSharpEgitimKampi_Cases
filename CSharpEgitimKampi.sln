@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ders06_Arrays", "Ders06_Arr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ders07_ForeachLoops", "Ders07_ForeachLoops\Ders07_ForeachLoops.csproj", "{D94220AD-1871-4F23-A160-E8CA086D0E7F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ders08_Methods", "Ders08_Methods\Ders08_Methods.csproj", "{E7EA9C19-CADF-4335-A0E3-21DB1AF0EC9F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{D94220AD-1871-4F23-A160-E8CA086D0E7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D94220AD-1871-4F23-A160-E8CA086D0E7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D94220AD-1871-4F23-A160-E8CA086D0E7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7EA9C19-CADF-4335-A0E3-21DB1AF0EC9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7EA9C19-CADF-4335-A0E3-21DB1AF0EC9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7EA9C19-CADF-4335-A0E3-21DB1AF0EC9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7EA9C19-CADF-4335-A0E3-21DB1AF0EC9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
