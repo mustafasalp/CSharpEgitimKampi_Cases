@@ -1,1 +1,1 @@
-# ** _C# EĞİTİM KAMPI DERSLERİ_**
+# **_C# EĞİTİM KAMPI DERSLERİ_**
