@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ders01
+namespace Ders01_IntroductionToC#
 {
     internal class Program
     {
