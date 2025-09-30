@@ -129,21 +129,21 @@ namespace Ders08_Methods
 
             #region Örnek Uygulama
 
-            string ExamResult(string studentName, int exam1, int exam2, int exam3)
-            {
-                double totalGrade = (double)(exam1 + exam2 + exam3) / 3;
-                if(totalGrade >= 50)
-                {
-                    return $"{studentName} isimli öğrenci sınavda başarılı oldu, ortalaması: {totalGrade:F2}";
-                }
-                else
-                {
-                    return $"{studentName} isimli öğrenci sınavda başarısız oldu, ortalaması: {totalGrade:F2}";
-                }
-            }
+            // string ExamResult(string studentName, int exam1, int exam2, int exam3)
+            // {
+            //     double totalGrade = (double)(exam1 + exam2 + exam3) / 3;
+            //     if(totalGrade >= 50)
+            //     {
+            //         return $"{studentName} isimli öğrenci sınavda başarılı oldu, ortalaması: {totalGrade:F2}";
+            //     }
+            //     else
+            //     {
+            //         return $"{studentName} isimli öğrenci sınavda başarısız oldu, ortalaması: {totalGrade:F2}";
+            //     }
+            // }
 
-            Console.WriteLine(ExamResult("Mustafa ALP", 12, 31, 53));
-            Console.WriteLine(ExamResult("Zeynep ALP", 21, 45, 93));
+            // Console.WriteLine(ExamResult("Mustafa ALP", 12, 31, 53));
+            // Console.WriteLine(ExamResult("Zeynep ALP", 21, 45, 93));
 
             #endregion
 
