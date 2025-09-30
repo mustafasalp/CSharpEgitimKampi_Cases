@@ -1,1 +1,3 @@
-# 📌C# EĞİTİM KAMPI, DERS NOTLARI
+# 📌 C# EĞİTİM KAMPI, DERS NOTLARI
+
+# DERS01 _Giriş_
