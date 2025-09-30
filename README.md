@@ -1,6 +1,6 @@
 # 📌 **C# EĞİTİM KAMPI, DERS NOTLARI**
 
-Bu repo <a href="https://muratyucedag.com/">Murat Yücedağ</a> hocamızın <a href="https://www.youtube.com/watch?v=oev5wH-_XCI&list=PLKnjBHu2xXNPmFMvGKVHA_ijjrgUyNIXr"> C# </a>
+Bu repo <a href="https://muratyucedag.com/" target=_blank>Murat Yücedağ</a> hocamızın <a href="https://www.youtube.com/watch?v=oev5wH-_XCI&list=PLKnjBHu2xXNPmFMvGKVHA_ijjrgUyNIXr" target=_blank> C# </a>
 kursunun görevlerini(kodlarını) içerir.
 
 # 📚 DERS 01: Giriş, Temel Konular.
