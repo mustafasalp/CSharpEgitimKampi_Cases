@@ -43,6 +43,8 @@ ek olarak en seveceğimi düşündüğüm yerlerden biri.
 Bu kısımda MSSQL kurulumunu ve SSMS kurulumunu tamamladım ve hocamla
 tablolar oluşturup bun tabloları C# dan sorgularla çekmeyi öğrendim.😴
 
+<h2> 📚 DERS 10: C# ile N Katmanlı Mimari Entity Layer</h2>
+Bu ders bana en yeni, farklı gelen dersti. Ders kapsamında
 
 
 
