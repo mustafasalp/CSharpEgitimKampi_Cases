@@ -1,3 +1,5 @@
+# C#101 #
+
 <h2> 📚 DERS 01: Giriş, Temel Konular. </h2>
 Bu ders de C# programlama dilide yaygın kullanılan Visual Studio IDE' sinin kurulumunu tamamladım
 ve consola yazı yazdırmayı Console.WriteLine() komutu ile öğrendim.😊
