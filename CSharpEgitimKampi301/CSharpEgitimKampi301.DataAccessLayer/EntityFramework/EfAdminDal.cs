@@ -1,6 +1,6 @@
 ﻿using CSharpEgitimKampi301.DataAccessLayer.Repositories;
 using CSharpEgitimKampi301.EntityLayer.Concrete;
-using CSharpEgitimKampi301.DataAccessLayer.Abstract
+using CSharpEgitimKampi301.DataAccessLayer.Abstract;
 using System;
 using System.Collections.Generic;
 using System.Linq;

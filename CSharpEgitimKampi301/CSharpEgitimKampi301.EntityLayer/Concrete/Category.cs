@@ -8,7 +8,7 @@ namespace CSharpEgitimKampi301.EntityLayer.Concrete
 {
     public class Category
     {
-        public int CategoryId { get; set; } // Otomatik artan olduğunu sonundaki "Id" den anlıyor. !!!
+        public int CategoryId { get; set; } // Otomatik artan olduğunu sonundaki "Id" den anlıyor. !!!, evet "Id" var ise otomatik artan oluyor.
         public string CategoryName { get; set; }
         public bool CategoryStatus { get; set; }
         public List<Product> Products { get; set; }

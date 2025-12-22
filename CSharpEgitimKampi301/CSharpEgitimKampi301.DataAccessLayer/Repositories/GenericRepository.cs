@@ -1,10 +1,10 @@
-﻿using CSharpEgitimKampi301.DataAccessLayer.Abstract;
+﻿// GenericRepository.cs in DataAccessLayer
+using CSharpEgitimKampi301.DataAccessLayer.Abstract;
 using CSharpEgitimKampi301.DataAccessLayer.Context;
 using System;
 using System.CodeDom;
 using System.Collections.Generic;
-using System.Data.Entity
-
+using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
