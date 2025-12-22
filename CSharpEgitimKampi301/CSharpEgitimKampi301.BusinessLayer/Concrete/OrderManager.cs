@@ -11,14 +11,14 @@ namespace CSharpEgitimKampi301.BusinessLayer.Concrete
 {
     public class OrderManager : IOrderService
     {
-        private readonly IOrderDal _orderDal;
+        private readonly IOrderDal _orderDal; // field example
         public OrderManager(IOrderDal orderDal)
         {
             _orderDal = orderDal;
         }
         public void TDelete(Order entity)
         {
-            _orderDal.Delete(entity);
+            _orderDal.Delete(entity); // Data access deki "Delete()" method'u kullanılıyor.
         }
         public List<Order> TGetAll()
         {

@@ -67,6 +67,22 @@
     <Compile Include="Migrations\202510081733086_mig1.Designer.cs">
       <DependentUpon>202510081733086_mig1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202512221128283_UpdateEntities.cs" />
+    <Compile Include="Migrations\202512221128283_UpdateEntities.Designer.cs">
+      <DependentUpon>202512221128283_UpdateEntities.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202512221807048_productUpdate.cs" />
+    <Compile Include="Migrations\202512221807048_productUpdate.Designer.cs">
+      <DependentUpon>202512221807048_productUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202512221833023_FixProductCategoryFK.cs" />
+    <Compile Include="Migrations\202512221833023_FixProductCategoryFK.Designer.cs">
+      <DependentUpon>202512221833023_FixProductCategoryFK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202512221941474_MakeProductCategoryRequired.cs" />
+    <Compile Include="Migrations\202512221941474_MakeProductCategoryRequired.Designer.cs">
+      <DependentUpon>202512221941474_MakeProductCategoryRequired.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\GenericRepository.cs" />
@@ -85,6 +101,18 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202510081733086_mig1.resx">
       <DependentUpon>202510081733086_mig1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202512221128283_UpdateEntities.resx">
+      <DependentUpon>202512221128283_UpdateEntities.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202512221807048_productUpdate.resx">
+      <DependentUpon>202512221807048_productUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202512221833023_FixProductCategoryFK.resx">
+      <DependentUpon>202512221833023_FixProductCategoryFK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202512221941474_MakeProductCategoryRequired.resx">
+      <DependentUpon>202512221941474_MakeProductCategoryRequired.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

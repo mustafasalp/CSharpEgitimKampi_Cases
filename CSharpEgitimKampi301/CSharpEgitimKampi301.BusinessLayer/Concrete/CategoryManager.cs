@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace CSharpEgitimKampi301.BusinessLayer.Concrete
-{
+{ 
     public class CategoryManager : ICategoryService 
     {
         private readonly ICategoryDal _categoryDal; // Field -> Class içinde tanımlandığı için.(Sonunda get; set; olsa idi property olcaktı)
@@ -19,7 +19,8 @@ namespace CSharpEgitimKampi301.BusinessLayer.Concrete
         }
         public void TDelete(Category entity)
         {
-            // throw new NotImplementedException();
+            if (entity.CategoryId <= 0)
+                throw new Exception("Geçersiz kategori id.");
             _categoryDal.Delete(entity); // delete burada bir method.   
         }
 
@@ -37,7 +38,9 @@ namespace CSharpEgitimKampi301.BusinessLayer.Concrete
         
         public void TInsert(Category entity)
         {
-            // throw new NotImplementedException();
+            if(string.IsNullOrWhiteSpace(entity.CategoryName))
+                throw new Exception("Kategori adı boş olamaz.");
+
             _categoryDal.Insert(entity);
         }
         public void TUpdate(Category entity)

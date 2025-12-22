@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 
 namespace CSharpEgitimKampi301.BusinessLayer.Concrete
 {
+    // Logic kurallar arttırılabilir.
     public class CustomerManager : ICustomerService
     {
         private readonly ICustomerDal _customerDal; // '_' kullanılmazsa this. kullanılmalı 

@@ -32,7 +32,6 @@ namespace CSharpEgitimKampi301.DataAccessLayer.Repositories
         {
             return _object.ToList();
         }
-
         public T GetById(int id)
         {
             return _object.Find(id);

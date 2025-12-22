@@ -81,6 +81,7 @@
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(695, 466);
             this.dataGridView1.TabIndex = 3;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // txtCategoryName
             // 
@@ -117,6 +118,7 @@
             this.rdbActive.TabStop = true;
             this.rdbActive.Text = "Aktif";
             this.rdbActive.UseVisualStyleBackColor = true;
+            this.rdbActive.CheckedChanged += new System.EventHandler(this.rdbActive_CheckedChanged);
             // 
             // rdbPassive
             // 
@@ -137,6 +139,7 @@
             this.btnAdd.TabIndex = 9;
             this.btnAdd.Text = "Ekle";
             this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // btnDelete
             // 
@@ -146,6 +149,7 @@
             this.btnDelete.TabIndex = 10;
             this.btnDelete.Text = "Sil";
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnGetById
             // 
@@ -155,6 +159,7 @@
             this.btnGetById.TabIndex = 11;
             this.btnGetById.Text = "ID\'ye Göre Getir";
             this.btnGetById.UseVisualStyleBackColor = true;
+            this.btnGetById.Click += new System.EventHandler(this.btnGetById_Click);
             // 
             // btnUpdate
             // 
@@ -164,6 +169,7 @@
             this.btnUpdate.TabIndex = 12;
             this.btnUpdate.Text = "Güncelle";
             this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // FrmCategory
             // 
