@@ -129,8 +129,15 @@ namespace MyFinancialCrm
             CurrentUser.Username = null;
             CurrentUser.IsAdmin = false;
 
-            FrmLogin frm = new FrmLogin();
-            frm.Show();
+            var loginForm = Application.OpenForms.OfType<FrmLogin>().FirstOrDefault();
+            if (loginForm != null)
+            {
+                loginForm.Show();
+            }
+            else
+            {
+                new FrmLogin().Show();
+            }
             this.Close();
         }
 
@@ -138,35 +145,35 @@ namespace MyFinancialCrm
         {
             FrmBilling frm = new FrmBilling();
             frm.Show();
-            this.Hide();
+            this.Close();
         }
 
         private void btnDashboardForm_Click(object sender, EventArgs e)
         {
             FrmDashboard frm = new FrmDashboard();
             frm.Show();
-            this.Hide();
+            this.Close();
         }
 
         private void btnSettingsForm_Click(object sender, EventArgs e)
         {
             FrmSettings frm = new FrmSettings();
             frm.Show();
-            this.Hide();
+            this.Close();
         }
 
         private void btnBanks_Click(object sender, EventArgs e)
         {
             FrmBanks frm = new FrmBanks();
             frm.Show();
-            this.Hide();
+            this.Close();
         }
 
         private void btnCategories_Click(object sender, EventArgs e)
         {
             FrmCategories frm = new FrmCategories();
             frm.Show();
-            this.Hide();
+            this.Close();
         }
     }
 }

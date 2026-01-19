@@ -104,21 +104,21 @@ namespace MyFinancialCrm
         {
             FrmBanks frm = new FrmBanks();
             frm.Show();
-            this.Hide();
+            this.Close();
         }
 
         private void btnDashboardForm_Click(object sender, EventArgs e)
         {
             FrmDashboard frm = new FrmDashboard();
             frm.Show();
-            this.Hide();
+            this.Close();
         }
 
         private void btnSettingsForm_Click(object sender, EventArgs e)
         {
             FrmSettings frm = new FrmSettings();
             frm.Show();
-            this.Hide();
+            this.Close();
         }
 
         private void btnExit_Click(object sender, EventArgs e)
@@ -129,14 +129,16 @@ namespace MyFinancialCrm
             CurrentUser.IsAdmin = false;
 
             // Login formuna dön
-            FrmLogin frm = new FrmLogin();
-            frm.Show();
-            this.Close(); // Bu formu kapat, ama login açıldığı için uygulama kapanmaz
-        }
-
-        private void btnBillingsForm_Click(object sender, EventArgs e)
-        {
-
+            var loginForm = Application.OpenForms.OfType<FrmLogin>().FirstOrDefault();
+            if (loginForm != null)
+            {
+                loginForm.Show();
+            }
+            else
+            {
+                new FrmLogin().Show();
+            }
+            this.Close(); // Bu formu kapat
         }
 
         private void panel3_Paint(object sender, PaintEventArgs e)

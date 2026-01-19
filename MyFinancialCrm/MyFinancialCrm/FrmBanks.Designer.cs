@@ -35,7 +35,7 @@
             this.btnBankDashboard = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.btnBillForm = new System.Windows.Forms.Button();
-            this.btnBanks = new System.Windows.Forms.Button();
+            this.btnCategoriesForm = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.lblBanksUserName = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -92,7 +92,7 @@
             this.panel1.Controls.Add(this.btnBankDashboard);
             this.panel1.Controls.Add(this.button5);
             this.panel1.Controls.Add(this.btnBillForm);
-            this.panel1.Controls.Add(this.btnBanks);
+            this.panel1.Controls.Add(this.btnCategoriesForm);
             this.panel1.Location = new System.Drawing.Point(0, 58);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(228, 548);
@@ -181,18 +181,19 @@
             this.btnBillForm.UseVisualStyleBackColor = true;
             this.btnBillForm.Click += new System.EventHandler(this.btnBillForm_Click);
             // 
-            // btnBanks
+            // btnCategoriesForm
             // 
-            this.btnBanks.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnBanks.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBanks.Font = new System.Drawing.Font("Calibri", 11F);
-            this.btnBanks.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnBanks.Location = new System.Drawing.Point(29, 48);
-            this.btnBanks.Name = "btnBanks";
-            this.btnBanks.Size = new System.Drawing.Size(171, 49);
-            this.btnBanks.TabIndex = 1;
-            this.btnBanks.Text = "Kategoriler";
-            this.btnBanks.UseVisualStyleBackColor = true;
+            this.btnCategoriesForm.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.btnCategoriesForm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCategoriesForm.Font = new System.Drawing.Font("Calibri", 11F);
+            this.btnCategoriesForm.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnCategoriesForm.Location = new System.Drawing.Point(29, 48);
+            this.btnCategoriesForm.Name = "btnCategoriesForm";
+            this.btnCategoriesForm.Size = new System.Drawing.Size(171, 49);
+            this.btnCategoriesForm.TabIndex = 1;
+            this.btnCategoriesForm.Text = "Kategoriler";
+            this.btnCategoriesForm.UseVisualStyleBackColor = true;
+            this.btnCategoriesForm.Click += new System.EventHandler(this.btnCategoriesForm_Click);
             // 
             // panel2
             // 
@@ -247,6 +248,7 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(527, 50);
             this.panel3.TabIndex = 6;
+            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
             // lblZiraatBankBalance
             // 
@@ -621,7 +623,7 @@
         private System.Windows.Forms.Button btnBankDashboard;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button btnBillForm;
-        private System.Windows.Forms.Button btnBanks;
+        private System.Windows.Forms.Button btnCategoriesForm;
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.Button btnSettings;
         private System.Windows.Forms.Panel panel2;

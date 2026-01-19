@@ -80,8 +80,15 @@ namespace MyFinancialCrm
                     CurrentUser.UserId = 0;
                     CurrentUser.Username = null;
 
-                    FrmLogin frm = new FrmLogin();
-                    frm.Show();
+                    var loginForm = Application.OpenForms.OfType<FrmLogin>().FirstOrDefault();
+                    if (loginForm != null)
+                    {
+                        loginForm.Show();
+                    }
+                    else
+                    {
+                        new FrmLogin().Show();
+                    }
                     this.Close(); // Ayarlar formunu kapatır
                 }
             }

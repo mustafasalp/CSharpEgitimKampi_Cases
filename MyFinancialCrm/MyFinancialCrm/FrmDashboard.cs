@@ -145,21 +145,21 @@ namespace MyFinancialCrm
             // Temel Giderlerim kısmı.
             FrmBilling frm = new FrmBilling();
             frm.Show();
-            this.Hide();
+            this.Close();
         }
 
         private void btnBillsForm_Click(object sender, EventArgs e)
         {
-            FrmBankProcesses frm = new FrmBankProcesses();
+            FrmSpendings frm = new FrmSpendings();
             frm.Show();
-            this.Hide(); // Mevcut Dashboard formunu gizler
+            this.Close(); // Mevcut Dashboard formunu kapatır
         }
 
         private void btnBanksForm_Click(object sender, EventArgs e)
         {
             FrmBanks frm = new FrmBanks();
             frm.Show();
-            this.Hide(); // Mevcut Dashboard formunu gizler
+            this.Close(); // Mevcut Dashboard formunu kapatır
         }
 
         private void btnSettingsDashboard_Click(object sender, EventArgs e)
@@ -176,9 +176,19 @@ namespace MyFinancialCrm
             CurrentUser.IsAdmin = false;
 
             // Login formuna dön
-            FrmLogin frm = new FrmLogin();
-            frm.Show();
-            this.Close(); // Bu formu kapat, ama login açıldığı için uygulama kapanmaz
+            // Login formuna dön (Application.OpenForms ile bul)
+            var loginForm = Application.OpenForms.OfType<FrmLogin>().FirstOrDefault();
+            if (loginForm != null)
+            {
+                loginForm.Show();
+            }
+            else
+            {
+                // Eğer login formu bulunamazsa (beklenmedik durum), yeni oluştur
+                new FrmLogin().Show();
+            }
+            
+            this.Close(); 
         }
 
         private void btnCategoriesForm_Click(object sender, EventArgs e)

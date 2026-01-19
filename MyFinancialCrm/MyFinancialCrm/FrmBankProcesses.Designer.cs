@@ -51,7 +51,6 @@
             this.btnExit = new System.Windows.Forms.Button();
             this.btnSettingsForm = new System.Windows.Forms.Button();
             this.btnDashboardForm = new System.Windows.Forms.Button();
-            this.btnBankProcessesForm = new System.Windows.Forms.Button();
             this.btnBillingsForm = new System.Windows.Forms.Button();
             this.btnBanks = new System.Windows.Forms.Button();
             this.panel3.SuspendLayout();
@@ -72,6 +71,7 @@
             this.btnCategories.TabIndex = 15;
             this.btnCategories.Text = "Kategoriler";
             this.btnCategories.UseVisualStyleBackColor = true;
+            this.btnCategories.Click += new System.EventHandler(this.btnCategories_Click);
             // 
             // label3
             // 
@@ -184,6 +184,7 @@
             this.btnSpendingUpdate.TabIndex = 11;
             this.btnSpendingUpdate.Text = "Harcama Güncelle";
             this.btnSpendingUpdate.UseVisualStyleBackColor = false;
+            this.btnSpendingUpdate.Click += new System.EventHandler(this.btnSpendingUpdate_Click);
             // 
             // btnSpendingDelete
             // 
@@ -198,6 +199,7 @@
             this.btnSpendingDelete.TabIndex = 10;
             this.btnSpendingDelete.Text = "Harcama Sil";
             this.btnSpendingDelete.UseVisualStyleBackColor = false;
+            this.btnSpendingDelete.Click += new System.EventHandler(this.btnSpendingDelete_Click);
             // 
             // btnSpendingAdd
             // 
@@ -212,6 +214,7 @@
             this.btnSpendingAdd.TabIndex = 9;
             this.btnSpendingAdd.Text = "Harcama Ekle";
             this.btnSpendingAdd.UseVisualStyleBackColor = false;
+            this.btnSpendingAdd.Click += new System.EventHandler(this.btnSpendingAdd_Click);
             // 
             // btnSpendingList
             // 
@@ -226,6 +229,7 @@
             this.btnSpendingList.TabIndex = 8;
             this.btnSpendingList.Text = "Harcama Listele";
             this.btnSpendingList.UseVisualStyleBackColor = false;
+            this.btnSpendingList.Click += new System.EventHandler(this.btnSpendingList_Click);
             // 
             // txtSpendingTitle
             // 
@@ -271,7 +275,6 @@
             this.panel1.Controls.Add(this.btnExit);
             this.panel1.Controls.Add(this.btnSettingsForm);
             this.panel1.Controls.Add(this.btnDashboardForm);
-            this.panel1.Controls.Add(this.btnBankProcessesForm);
             this.panel1.Controls.Add(this.btnBillingsForm);
             this.panel1.Controls.Add(this.btnBanks);
             this.panel1.Location = new System.Drawing.Point(0, 1);
@@ -295,12 +298,13 @@
             this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnExit.Font = new System.Drawing.Font("Calibri", 11F);
             this.btnExit.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnExit.Location = new System.Drawing.Point(28, 420);
+            this.btnExit.Location = new System.Drawing.Point(28, 365);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(171, 49);
             this.btnExit.TabIndex = 3;
             this.btnExit.Text = "Çıkış";
             this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // btnSettingsForm
             // 
@@ -308,12 +312,13 @@
             this.btnSettingsForm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSettingsForm.Font = new System.Drawing.Font("Calibri", 11F);
             this.btnSettingsForm.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnSettingsForm.Location = new System.Drawing.Point(28, 365);
+            this.btnSettingsForm.Location = new System.Drawing.Point(28, 310);
             this.btnSettingsForm.Name = "btnSettingsForm";
             this.btnSettingsForm.Size = new System.Drawing.Size(171, 49);
             this.btnSettingsForm.TabIndex = 3;
             this.btnSettingsForm.Text = "Ayarlar";
             this.btnSettingsForm.UseVisualStyleBackColor = true;
+            this.btnSettingsForm.Click += new System.EventHandler(this.btnSettingsForm_Click);
             // 
             // btnDashboardForm
             // 
@@ -321,25 +326,13 @@
             this.btnDashboardForm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDashboardForm.Font = new System.Drawing.Font("Calibri", 11F);
             this.btnDashboardForm.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnDashboardForm.Location = new System.Drawing.Point(28, 310);
+            this.btnDashboardForm.Location = new System.Drawing.Point(28, 255);
             this.btnDashboardForm.Name = "btnDashboardForm";
             this.btnDashboardForm.Size = new System.Drawing.Size(171, 49);
             this.btnDashboardForm.TabIndex = 2;
             this.btnDashboardForm.Text = "Dashboard";
             this.btnDashboardForm.UseVisualStyleBackColor = true;
-            // 
-            // btnBankProcessesForm
-            // 
-            this.btnBankProcessesForm.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnBankProcessesForm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBankProcessesForm.Font = new System.Drawing.Font("Calibri", 11F);
-            this.btnBankProcessesForm.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnBankProcessesForm.Location = new System.Drawing.Point(28, 255);
-            this.btnBankProcessesForm.Name = "btnBankProcessesForm";
-            this.btnBankProcessesForm.Size = new System.Drawing.Size(171, 49);
-            this.btnBankProcessesForm.TabIndex = 2;
-            this.btnBankProcessesForm.Text = "Banka Haraketleri";
-            this.btnBankProcessesForm.UseVisualStyleBackColor = true;
+            this.btnDashboardForm.Click += new System.EventHandler(this.btnDashboardForm_Click);
             // 
             // btnBillingsForm
             // 
@@ -353,6 +346,7 @@
             this.btnBillingsForm.TabIndex = 2;
             this.btnBillingsForm.Text = "Temel Giderlerim";
             this.btnBillingsForm.UseVisualStyleBackColor = true;
+            this.btnBillingsForm.Click += new System.EventHandler(this.btnBillingsForm_Click);
             // 
             // btnBanks
             // 
@@ -366,6 +360,7 @@
             this.btnBanks.TabIndex = 2;
             this.btnBanks.Text = "Bankalar";
             this.btnBanks.UseVisualStyleBackColor = true;
+            this.btnBanks.Click += new System.EventHandler(this.btnBanks_Click);
             // 
             // FrmBankProcesses
             // 
@@ -377,6 +372,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "FrmBankProcesses";
             this.Text = "FrmBillings";
+            this.Load += new System.EventHandler(this.FrmBankProcesses_Load);
             this.panel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.panel2.ResumeLayout(false);
@@ -412,7 +408,6 @@
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.Button btnSettingsForm;
         private System.Windows.Forms.Button btnDashboardForm;
-        private System.Windows.Forms.Button btnBankProcessesForm;
         private System.Windows.Forms.Button btnBillingsForm;
         private System.Windows.Forms.Button btnBanks;
     }
